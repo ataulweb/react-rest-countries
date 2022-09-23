@@ -32,7 +32,7 @@ function Loadcountries (){
 
 function Country(props){
   return(
-    <div>
+    <div className='country'>
       <h2>Name: {props.name}</h2>
       <h4>Population: {props.population}</h4>
       <h4>Region: {props.region}</h4>
